@@ -1,0 +1,101 @@
+h1{
+    color:rgb(243, 239, 247);
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+body{
+    font-size: large;
+    color: cornsilk;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+}
+textarea{
+    height: 5em;
+    width: 25em;
+}
+
+@media only screen and (max-width:1350px)
+{
+    body{
+    margin-left: 200px;
+    margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width:852px)
+{
+    body{
+    margin-left: 100px;
+    margin-right: 200px;
+    }
+}
+
+@media only screen and (max-width:654px)
+{
+    body{
+    margin-left: 80px;
+    margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width:534px)
+{
+    body{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:392px)
+{
+    body{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: small;
+    }
+    textarea{
+        height: 5em;
+        width: 15em;
+    }
+    input[name=email], input[name=st_name], input[name=number]{
+        width: 5em;
+    }
+    select{
+        width: 5em;
+    }
+    input[name=year]{
+        font-size: smaller;
+    }
+    option{
+        font-size: 0.4em;
+    }
+}
+@media only screen and (max-width:260px){
+    textarea{
+        height: 5em;
+        width: 12em;
+    }
+}
+@media only screen and (max-width:219px){
+    textarea{
+        height: 5em;
+        width: 10em;
+    }
+}
+@media only screen and (max-width:198px){
+    textarea{
+        height: 5em;
+        width: 6em;
+    }
+    h1{
+        font-size: x-large;
+    }
+}
